@@ -3,7 +3,7 @@
     <div class="search">
       <label class="visually-hidden" for="search-bar">Sök</label>
       <input v-model="query" type="text" name="search-bar" placeholder="ex: Mission Impossible"
-        @:keyup.enter="searchData()" />
+        @keydown.enter="searchData()" />
     </div>
     <button @click="searchData()">
       Search
