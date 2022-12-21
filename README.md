@@ -11,6 +11,7 @@ Uses [TVMaze](https://www.tvmaze.com/api) as API
 * Give search movie or show suggestions as the user types in the search bar
 * Add the possibility to search for an actor/actress & display their data (like movies, age, etc.)
 * Allow the user to click on Cast details in ShowDetails.vue to take them to a detailed actor/actress page
+* More descriptive alt texts with the right data to improve accesability
 
 ---
 
