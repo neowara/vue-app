@@ -2,7 +2,7 @@
 This project was built using Vue 2.6 and TypeScript 4.5 in ~8 hours
 Uses [TVMaze](https://www.tvmaze.com/api) as API
 
-### If I had more time this is what I would:
+### If I had more time this is what I would do:
 
 * Add a component to render stars as images inside a div depending on the Score of a TV show or movie.
 * Make it so all the pictures in the result align properly (since all pictures are not the same size there needs to be a workaround for this)
