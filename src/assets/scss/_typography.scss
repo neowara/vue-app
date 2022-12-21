@@ -1,0 +1,23 @@
+html {
+  font-family: $font-family;
+  font-size: 100%;
+}
+button {
+  font-family: $font-family;
+}
+h1 {
+  margin: 0;
+  line-height: 32px;
+  word-break: break-word;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+p {
+  display: inherit;
+  margin: 0;
+}
