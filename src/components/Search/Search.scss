@@ -1,0 +1,57 @@
+@import "../../assets/scss/base";
+
+.search-content {
+  width: 100%;
+  margin-right: -30px;
+  justify-content: center;
+  display: flex;
+  max-width: 1200px;
+  margin: auto 20px;
+  .search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    input {
+      width: 100%;
+      background: #fff;
+      font: inherit;
+      box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
+      border: 0;
+      outline: 0;
+      padding: 22px 18px;
+    }
+  }
+
+  button {
+    color: white;
+    position: relative;
+    width: 30%;
+    background: #00a496;
+    border: 10px solid #ffffff;
+    left: -2px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: $medium) {
+  .search-content {
+    width: 80%;
+    margin: 0 40px;
+    .search {
+      display: flex;
+      align-items: center;
+
+      input {
+        width: 100%;
+        background: #fff;
+        font: inherit;
+        box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
+        border: 0;
+        outline: 0;
+        padding: 22px 18px;
+        height: 18px;
+      }
+    }
+  }
+}
