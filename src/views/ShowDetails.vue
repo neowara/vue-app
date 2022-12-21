@@ -1,8 +1,8 @@
 <template>
   <div class="show-details-container">
-    <div class="back-to-results row" @click="$router.push({ name: 'Home' }).catch((err) => { })">
-      <p>&#x2190; Back to search results</p>
-    </div>
+    <a class="back-to-results row" @click="$router.push({ name: 'Home' }).catch((err) => { })">
+      &#x2190; Back to search results
+    </a>
     <div class="column column-1">
       <h1 class="show-details-name">
         {{ selectedShow.name }}
@@ -42,7 +42,7 @@
     </div>
 
     <div v-if="selectedShow.image" class="column column-2">
-      <img :src="selectedShow.image.original" class="show-details-image" alt="show-cover" />
+      <img :src="selectedShow.image.original" class="show-details-image" alt="the show cover" />
     </div>
 
     <div v-if="cast.length" class="column row-2">
@@ -59,7 +59,7 @@
           </div>
 
           <div v-else class="no-image-found">
-            <img src="../assets/images/no-image-icon-23494.png" alt="" />
+            <img src="../assets/images/no-image-icon-23494.png" alt="cast member picture" />
           </div>
 
           <div class="cast-member-text">

@@ -2,7 +2,7 @@
   <div class="app">
     <div class="search-container" :class="{ 'slide-top': showsData && showsData.length }">
       <router-link to="/">
-        <img src="./assets/images/tvm-header-logo.png" alt="">
+        <img src="./assets/images/tvm-header-logo.png" alt="logo">
       </router-link>
       <Search v-if="showsData" />
     </div>

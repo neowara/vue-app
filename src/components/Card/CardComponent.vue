@@ -1,13 +1,12 @@
 <template>
   <div class="card-container" @click="$emit('cardClick')">
     <div v-if="show.name" class="card">
-
       <div v-if="show.image" class="card-image">
-        <img :src="show.image.original" alt="movie-cover">
+        <img :src="show.image.original" alt="the movie cover">
       </div>
 
       <div v-else class="card-image">
-        <img src="../../assets/images/no-image-icon-23494.png" alt="">
+        <img src="../../assets/images/no-image-icon-23494.png" alt="the movie cover">
       </div>
 
       <div class="card-title">
