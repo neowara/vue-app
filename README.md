@@ -1,7 +1,7 @@
 # **TVMaze Vue App**
 ```
 This project was built using Vue 2.6 and TypeScript 4.5 
-Uses https://www.tvmaze.com/api as API
+Uses [Link](https://www.tvmaze.com/api) as API
 ```
 
 
