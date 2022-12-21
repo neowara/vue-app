@@ -1,4 +1,9 @@
-# vue-ts
+# **TVMaze Vue App**
+```
+This project was built using Vue 2.6 and TypeScript 4.5 
+Uses https://www.tvmaze.com/api as API
+```
+
 
 ## Project setup
 ```
@@ -7,7 +12,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm start
 ```
 
 ### Compiles and minifies for production
@@ -20,5 +25,4 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
